@@ -1,0 +1,20 @@
+.search .search1 .el-input--suffix .el-input__inner:active, .search .search1 .el-input--suffix .el-input__inner:hover, .search .search1 .el-input--suffix .el-input__inner:focus {
+    border: 1px solid #118cfe;
+}
+// .el-input--suffix .el-input__inner {
+//     outline: none;
+//     border: none;
+//     padding-right: 15px;
+//     background-color: transparent;
+//     border: 1px solid #024b93;
+//     color: rgba(254, 255, 255, 1);
+// }
+
+.el-input__wrapper,
+.el-input__wrapper:hover{
+    box-shadow: none;
+}
+
+.el-form{
+    display: flex;
+  }

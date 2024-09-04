@@ -1,0 +1,78 @@
+
+.el-tabs--border-card > .el-tabs__header {
+  background-color: #05162f;
+  border-bottom: 1px solid #003263;
+}
+
+.el-table__empty-block {
+  background-color: #05162f;
+}
+
+.table-empty {
+  margin-top: 60px;
+}
+
+.el-table {
+  --el-table-border-color: #05162f;
+  color: #fff;
+  font-size: 16px;
+}
+.el-table thead{
+  color: #fff;
+}
+
+.el-tabs--border-card
+  > .el-tabs__header
+  .el-tabs__item:not(.is-disabled):hover {
+  background-color: #118cfe;
+  color: #fff;
+  font-size: 16px;
+}
+
+.el-table .cell.el-tooltip{
+  white-space: wrap;
+}
+
+
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  border-radius: 8px 8px 0px 0px;
+  background-color: #118cfe;
+  border: 1px solid #118cfe;
+  color: #fff;
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item {
+  height: 35px;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #012e5a;
+  border: 1px solid #012e5a;
+  margin-right: 10px;
+}
+.el-table td.el-table__cell,
+.el-table th.el-table__cell.is-leaf {
+  background-color: #05162f;
+  // border-top: 1px solid #012e5c;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{
+  background-color: #052a44;
+  font-size: 16px;
+}
+// .el-table th, .el-table tr{
+//   background-color: #051e39;
+// } 
+
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell{
+  background-color: #051e39;
+}
+
+
+.el-pagination{
+  background-color: transparent;
+}
+
+.el-checkbox__inner{
+  background-color: #05162f;
+  border: 1px solid #118cfe;
+}

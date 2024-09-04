@@ -1,0 +1,156 @@
+.el-tabs__nav-wrap {
+  background-color: #050c26;
+}
+.el-tabs--border-card {
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+
+.el-tabs--border-card
+  > .el-tabs__header
+  .el-tabs__item:not(.is-disabled):hover {
+  background-color: #118cfe;
+  color: #fff;
+  font-size: 16px;
+}
+
+.el-tabs__item .is-top{
+  font-size: 16px;
+}
+
+.el-tabs--border-card>.el-tabs__header{
+    border-bottom: 1px solid #003263;
+}
+
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  border-radius: 8px 8px 0px 0px;
+  background-color: #118cfe;
+  border: 1px solid #118cfe;
+  color: #fff;
+  font-size: 16px;
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item {
+  height: 35px;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #012e5a;
+  border: 1px solid #012e5a;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+
+.el-textarea__inner,.el-textarea__inner:hover{
+  background-color: #05162f;
+  box-shadow: none;
+  border: 1px solid #024b93;
+}
+.el-textarea__inner:hover{
+  background-color: #05162f;
+  box-shadow: none;
+  border: 1px solid #118cfe;
+}
+
+// .el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+//   font-size: 16px;
+// }
+
+
+.el-button,
+.el-button:hover{
+  background-color: #012e5a;
+  border: 1px solid #012e5a;
+  color: #fff;
+}
+
+.el-button--primary,
+.el-button--primary:hover{
+  background-color: #118cfe;
+  border: 1px solid #118cfe;
+  color: #fff;
+}
+
+.el-slider__runway{
+  background-color: #012e5a;
+}
+
+.el-slider__button{
+  background-color: #012e5a;
+}
+
+.el-input-number__decrease, .el-input-number__increase{
+  background-color: #012e5a;
+}
+
+.el-radio-button__inner{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #118cfe;
+}
+
+// .el-radio-button__inner .focus,
+// .el-radio-button__inner .hover{
+//   background-color: #409eff;
+//   color: #fff;
+//   border: 1px solid #118cfe;
+// }
+
+.el-select .el-input.is-disabled .el-input__wrapper{
+  background-color: transparent;
+}
+
+.el-date-editor.el-input__wrapper{
+  box-shadow: none;
+}
+
+.el-date-editor .el-range-separator{
+  color: #fff;
+}
+
+.el-loading-mask{
+  background-color: #003263;
+  opacity: 0.7;
+}
+
+.el-loading-spinner .el-loading-text{
+  color: #000;
+  font-size: 19px;
+  margin-top: 55px;
+}
+
+.el-time-range-picker__content{
+  background-color: #012e5a;
+  color: #fff;
+}
+
+.el-time-spinner__item{
+  color: #fff;
+}
+
+
+.el-time-spinner__item.is-active:not(.is-disabled){
+  color: #118cfe;
+}
+
+.el-time-spinner__item:hover:not(.is-disabled):not(.is-active){
+  background-color: #012e5a;
+  color: #118cfe;
+}
+
+.el-time-panel__footer{
+  background-color: #012e5a;
+  color: #fff;
+}
+
+.el-time-panel__btn{
+  color: #fff;
+}
+
+.el-popper.is-light,.el-time-range-picker__body{
+  border: 1px solid #024b93;
+}
+.el-time-panel__footer{
+  border-top: 1px solid #024b93;
+}

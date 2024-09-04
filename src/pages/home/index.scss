@@ -1,0 +1,28 @@
+// .dv-border-box-1 .border-box-content {
+//   padding: 20px;
+//   color: #fff;
+// }
+
+.el-tabs__nav-wrap::after {
+  background-color: #021438;
+}
+
+.el-tabs__item {
+  color: #fff;
+}
+
+// .row-item{
+//     height: 60px;
+//   }
+.el-tabs__nav-scroll {
+  background-color: #021438;
+}
+
+.row-item:last-child {
+  display: none;
+}
+
+.el-popper.is-light {
+  background-color: #012e5a;
+  color: #fff;
+}

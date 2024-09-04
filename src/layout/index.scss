@@ -1,0 +1,78 @@
+.el-menu--horizontal>.el-menu-item{
+    color: #fff;
+    border-bottom: none;
+}
+
+
+.el-menu-item{
+    width:13rem;
+    // min-width: 100px;
+    height:52px;
+    font-size:16px;
+    margin-right:10px;
+    margin-top:30px;
+    font-weight:bold;
+    background:rgba(255,255,255,0);
+    background-image:url('@/assets/bigScreen/menu/navdef1.png');
+    background-size:100% 100%;
+    border-bottom:none;
+}
+
+.el-menu-item.is-disabled{
+    background-image:url('@/assets/bigScreen/menu/navdef.png') !important;
+    background-size:100% 100% !important;
+}
+
+
+.el-menu--horizontal{
+    border-bottom: none;
+}
+
+.el-menu-item:nth-child(4),
+.el-menu-item:nth-child(5),
+.el-menu-item:nth-child(6){
+    background-image: url('@/assets/bigScreen/menu/navdef.png');
+    background-size:100% 100%;
+}
+
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, 
+.el-menu--horizontal .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal>.el-menu-item.is-active{
+    color: #fff !important;
+    background-color: transparent;
+    background-image:url('@/assets/bigScreen/menu/navactive1.png');
+    border-bottom: none;
+}
+.el-menu--horizontal .el-menu-item:nth-child(4):not(.is-disabled):focus, 
+.el-menu--horizontal .el-menu-item:nth-child(4):not(.is-disabled):hover,
+.el-menu--horizontal>.el-menu-item:nth-child(4).is-active{
+    color: #fff !important;
+    background-color: transparent;
+    background-image:url('@/assets/bigScreen/menu/navactive.png');
+    border-bottom: none;
+}
+.el-menu--horizontal .el-menu-item:nth-child(5):not(.is-disabled):focus, 
+.el-menu--horizontal .el-menu-item:nth-child(5):not(.is-disabled):hover,
+.el-menu--horizontal>.el-menu-item:nth-child(5).is-active{
+    color: #fff !important;
+    background-color: transparent;
+    background-image:url('@/assets/bigScreen/menu/navactive.png');
+    border-bottom: none;
+}
+.el-menu--horizontal .el-menu-item:nth-child(6):not(.is-disabled):focus, 
+.el-menu--horizontal .el-menu-item:nth-child(6):not(.is-disabled):hover,
+.el-menu--horizontal>.el-menu-item:nth-child(6).is-active{
+    color: #fff !important;
+    background-color: transparent;
+    background-image:url('@/assets/bigScreen/menu/navactive.png');
+    border-bottom: none;
+}
+.el-menu-item:nth-child(4){
+    margin-left: 550px;
+}
+
+
+
+ul.el-menu--horizontal>.el-menu-item.is-active{
+    background-color: transparent;
+}

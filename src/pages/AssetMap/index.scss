@@ -1,0 +1,35 @@
+.el-tabs__nav-wrap {
+    background-color: #050c26;
+  }
+  .el-tabs--border-card {
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+  
+  .el-tabs--border-card
+    > .el-tabs__header
+    .el-tabs__item:not(.is-disabled):hover {
+    background-color: #118cfe;
+    color: #fff;
+  }
+  
+  .el-tabs--border-card>.el-tabs__header{
+      border-bottom: 1px solid #003263;
+  }
+  
+  
+  .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+    border-radius: 8px 8px 0px 0px;
+    background-color: #118cfe;
+    border: 1px solid #118cfe;
+    color: #fff;
+  }
+  
+  .el-tabs--border-card > .el-tabs__header .el-tabs__item {
+    height: 35px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #012e5a;
+    border: 1px solid #012e5a;
+    margin-right: 10px;
+  }
+  

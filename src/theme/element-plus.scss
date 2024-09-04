@@ -1,0 +1,197 @@
+//菜单
+.el-menu-item {
+  color: #666;
+}
+
+ .el-sub-menu__title {
+  color: #666;
+}
+
+ .is-active {
+  background: url("../assets/imgs/menu.png");
+  color: #fff !important;
+
+   .el-sub-menu__title {
+    color: #fff !important;
+  }
+
+  .el-sub-menu__title:hover {
+    background: none;
+  }
+}
+
+.el-menu--collapse{
+  width: 70px;
+}
+  .el-menu--vertical:not(.el-menu--collapse):not(.el-menu--popup-container)
+  .el-menu-item {
+  padding-left: 44px;
+  font-size: 16px;
+}
+
+
+  .el-menu--vertical:not(.el-menu--collapse):not(.el-menu--popup-container)
+  .el-sub-menu__title {
+  padding-left: 44px;
+  font-size: 16px;
+}
+
+.el-sub-menu {
+  .is-active {
+    background: #e0eeff !important;
+    border-left: 6px solid #0177fe;
+    color: #333 !important;
+    box-sizing: border-box;
+
+    // padding-left: 22px !important;
+    span {
+      padding-left: 22px !important;
+    }
+  }
+}
+
+
+  .el-menu--vertical:not(.el-menu--collapse):not(.el-menu--popup-container)
+  .el-menu-item {
+  height: 60px;
+}
+
+
+  .el-menu--vertical:not(.el-menu--collapse):not(.el-menu--popup-container)
+  .el-sub-menu__title {
+  height: 60px;
+}
+
+
+.el-menu--popup {
+  min-width: 140px !important;
+  padding: 0 ;
+}
+.el-menu--horizontal .el-menu .el-menu-item{
+// padding:0 40px;
+padding-left: 50px;
+     box-sizing: border-box;
+      height: 40px;
+}
+
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title{
+  border-bottom: none;
+}
+
+.el-table {
+  // --el-table-border-color: none;
+  --el-table-header-text-color: #333;
+}
+
+.el-table thead {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+//弹框
+.el-dialog.is-draggable .el-dialog__header {
+  text-align: center;
+}
+
+.el-dialog__footer {
+  text-align: center;
+}
+
+.el-table tr {
+  height: 64px;
+  font-size: 18px;
+
+}
+
+.el-table td.el-table__cell div {
+  font-size: 16px;
+}
+.dialog {
+   .el-dialog__body {
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+  }
+}
+
+.el-dialog__body {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+
+//按钮
+.el-button>span {
+  font-size: 16px;
+}
+
+//查询输入框label
+
+.el-form--label-left .el-form-item__label {
+  justify-content: flex-end;
+  font-size: 16px;
+  color: #333;
+}
+
+
+//弹框文字大小{
+.el-dialog__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #333;
+  font-size: 20px;
+}
+
+.el-form-item--large .el-form-item__label {
+  font-size: 16px;
+}
+
+//按钮
+.el-button--primary.is-link,
+.el-button--primary.is-plain,
+.el-button--primary.is-text {
+  --el-button-bg-color: #fff;
+  --el-button-active-text-color: #fff;
+  --el-button-hover-text-color: #188eff;
+  --el-button-hover-bg-color: #fff;
+}
+
+
+
+//分页
+.el-pagination {
+  margin: 20px 0;
+  float: right;
+}
+
+// 滚动条的背景颜色
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px; //滚动条的背景区域的圆角
+}
+
+// /*滚动条的设置*/
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff !important;
+
+}
+
+.el-link__inner{
+  font-size: 16px;
+  margin-right: 10px;
+}
